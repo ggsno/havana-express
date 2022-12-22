@@ -1,0 +1,21 @@
+{
+  "name": "havana-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "cd client && npm install && cd ../server && npm install",
+    "start": "cd client && npm run build && cd ../server && npm run start",
+    "dev": "cd client && npm run build && cd ../server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggsno/havana-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggsno/havana-express/issues"
+  },
+  "homepage": "https://github.com/ggsno/havana-express#readme"
+}
